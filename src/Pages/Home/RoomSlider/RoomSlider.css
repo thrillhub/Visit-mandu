@@ -1,0 +1,85 @@
+.room_slider {
+    margin-top: 50px;
+    padding: 50px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.room_slider1 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.room_slider .room-card:hover {
+    transform: translate(5px, -5px);
+    transition: all 0.5s ease-in-out;
+}
+
+.explore-rooms {
+    padding: 40px 0 !important;
+}
+
+.explore-rooms h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #002147;
+}
+
+.explore-rooms h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.explore-rooms span {
+    color: #ff5e5e;
+}
+
+.explore-rooms p {
+    margin: 20px 0;
+}
+
+.room-card {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room-card img {
+    width: 100%;
+    height: auto;
+}
+
+.room-card-body {
+    padding: 20px;
+}
+
+.room-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #002147;
+}
+
+.room-price {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.room-features {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.room-features li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.room-features i {
+    margin-right: 5px;
+}
+
+.room_slider .rating span {
+    color: rgba(192, 195, 13, 0.66);
+}

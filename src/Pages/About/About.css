@@ -1,0 +1,83 @@
+.hero-section {
+    background-image: url('../../assets/images/breadcrumb.jpg');
+    /* Replace with your actual background image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 50vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black overlay with 50% opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center h1 {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.breadcrumb-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.quote {
+    padding: 60px 15px;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.quote h2 {
+    font-size: 35px !important;
+    font-weight: bold;
+}
+
+.stat-section {
+    background-image: url('../../assets/images/awards.jpg');
+    /* Replace with your actual background image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 50vh;
+}
+
+.stats_row {
+    padding: 0px 0px !important;
+    margin: auto;
+}
+
+.stat-section.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black overlay with 50% opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center h1 {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.breadcrumb-text {
+    margin-top: 10px;
+    font-size: 18px;
+}

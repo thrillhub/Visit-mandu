@@ -1,0 +1,74 @@
+.hero-section {
+    background-image: url('../../assets/images/breadcrumb.jpg');
+    /* Replace with your actual background image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 50vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black overlay with 50% opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center h1 {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.breadcrumb-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+/* aneminities */
+
+.amenities {
+    padding: 50px 0px !important;
+    text-align: center;
+}
+
+.amenities .row_title {
+    margin-bottom: 20px !important;
+}
+
+.amenities .card_row {
+    margin-bottom: 30px !important;
+}
+
+.amenities h2 {
+    font-weight: bold;
+}
+
+.amenities .row_title p {
+    opacity: 0.6;
+}
+
+.amenities .card_row .item {
+    box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.15);
+    padding: 23px 30px 25px;
+    border: 1px solid;
+    border: none;
+}
+
+.amenities .card_row .item .animi_icon {
+    font-size: 40px !important;
+    color: orange;
+}
+
+.amenities .card_row .item p {
+    font-size: 22x;
+    font-weight: bold;
+    margin-top: 10px;
+}
